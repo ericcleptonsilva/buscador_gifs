@@ -33,6 +33,20 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        centerTitle: true,
+        title: Text(
+          "Buscador de Gifs",
+          style: TextStyle(
+            color: Colors.amberAccent,
+            fontSize: 25,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      backgroundColor: Colors.black,
+    );
   }
 }
